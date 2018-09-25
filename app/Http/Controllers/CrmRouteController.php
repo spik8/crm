@@ -2491,6 +2491,7 @@ class CrmRouteController extends Controller
             ->orderBy('date')
             ->get();
 
+
         //list of all cities from database
 //        $allCities = Cities::select('name')->get();
 //        $inputs = ['ą', 'ć', 'ę', 'ł', 'ń', 'ó', 'ś', 'ź', 'ż', 'Ą', 'Ć', 'Ę', 'Ł', 'Ń', 'Ó', 'Ś', 'Ź', 'Ż' ];
